@@ -1,0 +1,100 @@
+.box .box1 .front {
+    background: url(a0.jpg);
+    background-size: 100% 100%;
+    width: 100px;
+	height: 100px;
+    opacity: 0.8;
+    transform: rotateY(0deg) translateZ(100px);
+}
+
+.box .box1 .back {
+    background: url(a1.jpg);
+    background-size: 100% 100%;
+    width: 100px;
+	height: 100px;
+    opacity: 0.8;
+    transform: translateZ(-200px) rotateY(180deg);
+}
+
+.box .box1 .right {
+   background: url(a2.jpg);
+    background-size: 100% 100%;
+    width: 100px;
+	height: 100px;
+    opacity: 0.8;
+    transform: rotateY(90deg) translateZ(200px);
+}
+
+.box .box1 .left {
+    background: url(a3.jpg);
+    background-size: 100% 100%;
+    width: 100px;
+	height: 100px;
+    opacity: 0.8;
+    transform: rotateY(-90deg) translateZ(200px);
+}
+
+.box .box1 .top {
+    background: url(a4.jpg);
+    background-size: 100% 100%;
+    width: 200px;
+	height: 200px;
+    opacity: 0.8;
+    transform: rotateX(90deg) translateZ(200px);
+}
+
+.box .box1 .bottom {
+    background: url(a5.jpg);
+    background-size: 100% 100%;
+    width: 200px;
+	height: 200px;
+    opacity: 0.8;
+    transform: rotateX(-90deg) translateZ(200px);
+}
+
+.box .box1:hover .front {
+    background: url(a0.jpg);
+    background-size: 100% 100%;
+    opacity: 0.4;
+    transition-duration: 1s;
+    transform: translateZ(400px);
+}
+
+.box .box1:hover .back {
+    background: url(a1.jpg);
+    background-size: 100% 100%;
+    opacity: 0.4;
+    transition-duration: 1s;
+    transform: translateZ(-400px) rotateY(180deg);
+}
+
+.box .box1:hover .right {
+    background: url(a2.jpg);
+    background-size: 100% 100%;
+    opacity: 0.4;
+    transition-duration: 1s;
+    transform: rotateY(90deg) translateZ(400px);
+}
+
+.box .box1:hover .left {
+    background: url(a3.jpg);
+    background-size: 100% 100%;
+    opacity: 0.4;
+    transition-duration: 1s;
+    transform: rotateY(-90deg) translateZ(400px);
+}
+
+.box .box1:hover .top {
+    background: url(a4.jpg);
+    background-size: 100% 100%;
+    opacity: 0.4;
+    transition-duration: 1s;
+    transform: rotateX(90deg) translateZ(400px);
+}
+
+.box .box1:hover .bottom {
+    background: url(a5.jpg);
+    background-size: 100% 100%;
+    opacity: 0.8;
+    transform: rotateX(-90deg) translateZ(200px);
+}
